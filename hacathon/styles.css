@@ -1,0 +1,77 @@
+body {
+    font-family:sans-serif;
+    
+}
+body{
+    background-color: blueviolet;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: #4CAF50;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: rgb(238, 63, 63);
+    cursor: pointer;
+
+}
+
+
+input[type="submit"]:hover {
+    background-color: rgb(32, 222, 98);
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#create-acc-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#create-acc-button:hover {background-color: rgb(32, 222, 98);
+ }
+ body {
+    display: grid;
+    height: 80vh;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+}
+
+fieldset {
+    width: 250px;
+    padding: 27px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}

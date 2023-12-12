@@ -1,0 +1,45 @@
+    <form id="recoveryForm">
+        <label for="recoveryEmail">Email:</label>
+        <input type="email" id="recoveryEmail" name="recoveryEmail" required>
+        <br>
+        <button type="button" onclick="sendOTP()">Send OTP</button>
+        <br>
+        <label for="otp">Enter OTP:</label>
+        <input type="text" id="otp" name="otp" required>
+        <br>
+        <button type="button" onclick="validateOTP()">Verify OTP</button>
+        <br>
+        <label for="newPassword">New Password:</label>
+        <input type="password" id="newPassword" name="newPassword" required>
+        <br>
+        <button type="button" onclick="resetPassword()">Reset Password</button>
+    </form>
+
+    <script>
+        function showRecoveryForm() {
+            // Hide login form, show recovery form
+            document.querySelector('form[action="insidefile.html"]').style.display = 'none';
+            document.getElementById('recoveryForm').style.display = 'block';
+        }
+
+        function sendOTP() {
+            // Simulate sending OTP to the provided email
+            alert("OTP sent to your email. Check your inbox.");
+        }
+
+        function validateOTP() {
+            // Simulate validating OTP
+            alert("OTP validated successfully. You can now reset your password.");
+        }
+
+        function resetPassword() {
+            // Simulate resetting the password
+            alert("Password reset successfully. You can now login with your new password.");
+
+            // You may want to redirect to the login page after successful password reset
+            window.location.href = "login.html";
+        }
+    </script>
+
+</body>
+</html>
